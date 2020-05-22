@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="counter-value">
+        <h2>Enter Time</h2>
+
+        <div id="input-range">
+            <input type="time" id="time" step="1" placeholder="Enter Time">
+            <button id="btn">Start Counter</button>
+        </div>
+    </div>
+
+    <div id="counter-container">
+        <div class="counter">
+            <p class="current" id="hour2">H</p>
+            <p class="next">H</p>
+        </div>
+        <div class="counter">
+            <p class="current" id="hour1">H</p>
+            <p class="next">H</p>
+        </div>
+
+        <div class="colon">
+            <p>:</p>
+        </div>
+
+        <div class="counter">
+            <p class="current" id="min2">M</p>
+            <p class="next">M</p>
+        </div>
+        <div class="counter">
+            <p class="current" id="min1">M</p>
+            <p class="next">M</p>
+        </div>
+
+        <div class="colon">
+            <p>:</p>
+        </div>
+
+        <div class="counter">
+            <p class="current" id="sec2">S</p>
+            <p class="next">S</p>
+        </div>
+        <div class="counter">
+            <p class="current" id="sec1">S</p>
+            <p class="next">S</p>
+        </div>
+    </div>
+
+    <div id="toggled">
+        <div id="circle"></div>
+    </div>
+
+    <h2 id="toggle-heading">Toggle it to Down-Counter</h2>
+    
+    <script src="script.js"></script>
+</body>
+</html>
